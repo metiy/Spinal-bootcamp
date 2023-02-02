@@ -22,6 +22,4 @@ jupyter labextension install @jupyterlab/plotly-extension
 mkdir -p ~/.jupyter/custom
 cp source/custom.js ~/.jupyter/custom/custom.js
 
-ls
-
-jupyter-execute --kernel_name=Scala   spinalhdl_install.ipynb
+jupyter-execute --kernel_name=Scala   install_spinalhdl.ipynb
